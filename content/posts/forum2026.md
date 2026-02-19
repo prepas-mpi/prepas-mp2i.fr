@@ -55,11 +55,11 @@ Vous pouvez poser vos questions sur le [Discord](https://discord.prepas-mp2i.org
 
 > Vous êtes un étudiant de en MP2I ou en MPI et vous souhaitez présenter la filière ? Signalez vous sur le Discord !
 
-Cette année, déjà 4 prépas MP2I/MPI ont annoncé leur présence ! Vous trouverez ci-dessous la liste des 4 intervenants et intervenantes qui se sont proposés :
+Cette année, déjà 6 prépas MP2I/MPI ont annoncé leur présence ! Vous trouverez ci-dessous la liste des 6 intervenants et intervenantes qui se sont proposés :
 
-| MPI | Intégré | MP2I | MP2I | MP2I |
-|:----:|:----:|:----:|:----:|:----:|
-| {{< figure src="/images/intervenants/Albin Montaigne.webp" title="Albin" caption="Montaigne" >}} | {{< figure src="/images/intervenants/Antoine Descartes.webp" title="Antoine" caption="Descartes" >}} | {{< figure src="/images/intervenants/Antoine Saint Louis.webp" title="Antoine" caption="Saint-Louis" >}} | {{< figure src="/images/intervenants/Alexandre Claude-Bernard.webp" title="Alexandre" caption="Claude-Bernard" >}} | {{< figure src="/images/intervenants/Lina Lycée du Parc.webp" title="Lina" caption="Lycée du Parc" >}} |
+| MPI | Intégré | MP2I | MP2I | MP2I | MP2I |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| {{< figure src="/images/intervenants/Albin Montaigne.webp" title="Albin" caption="Montaigne" >}} | {{< figure src="/images/intervenants/Antoine Descartes.webp" title="Antoine" caption="Descartes" >}} | {{< figure src="/images/intervenants/Stanislas La Fayette.webp" title="Stanislas" caption="La Fayette" >}} | {{< figure src="/images/intervenants/Alexandre Claude-Bernard.webp" title="Alexandre" caption="Claude-Bernard" >}} | {{< figure src="/images/intervenants/Lina Lycée du Parc.webp" title="Lina" caption="Lycée du Parc" >}} | {{< figure src="/images/intervenants/unknown.webp" title="Antón" caption="Clemenceau" >}} |
 
 ## Forums précédents
 
