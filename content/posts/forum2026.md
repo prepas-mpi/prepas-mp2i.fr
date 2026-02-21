@@ -26,9 +26,18 @@ Si vous êtes déjà en MP2I ou en MPI, les informations concernant le forum **d
     link="/images/forum/affiche_2026.webp"
 >}}
 
+## Lien de connexion
+
+En tant que lycéen, en tant que parent d'élève, ou qui que vous soyez, vous êtes le ou la bienvenu(e).
+Vous pouvez vous connecter au forum via ce lien : [Forum](https://visio-agents.education.fr/meeting/signin/invite/437062/creator/96179/hash/62b0265f99b035d950d0295d72f74f9dc19c3a5e)
+
+{{< admonition question "Des questions ?" false >}}
+Vous pouvez poser vos questions sur le [Discord](https://discord.prepas-mp2i.org/) ou par mail : [contact@prepas-mp2i.org](mailto:contact@prepas-mp2i.org)
+{{< /admonition >}}
+
 ## Présentation
 
-Dans la continuité de l'[édition 2025](/posts/forum-2025/), nous organisons un nouveau forum virtuel le samedi 21 février 2026.
+Dans la continuité de l'[édition 2025](/posts/forum-2025/), nous organisons un nouveau forum virtuel le samedi 21 février 2026 à 14h.
 En bref, il s'agit d'une journée portes ouvertes virtuelle via des visioconférences, où vous pourrez échanger avec des étudiants en MP2I et MPI de différents établissements. C'est ce qui rend ce forum virtuel unique en son genre !
 
 Cette édition accueillera à la fois des étudiants en MP2I, MPI, 5/2 (élèves ayant redoublé leur deuxième année pour repasser les concours) et école d'ingénieur provenant de MPI. Des professeurs interviendront éventuellement sur différents stands.
@@ -39,17 +48,6 @@ Cette édition accueillera à la fois des étudiants en MP2I, MPI, 5/2 (élèves
 Le forum des étudiants et étudiantes en MP2I/MPI se tiendra **le samedi 21 février 2026 l'après-midi**.
 Il s'organisera autour de différents stands composés de 2 ou 3 établissements géographiquement proches qui tourneront toutes les heures afin que vous puissiez obtenir des réponses et des témoignages d'étudiants venants de prépas différentes.
 
-### Planning
-
-À venir...
-
-### Accès aux stands
-
-Vous trouverez ci-dessous les liens vers les différentes visioconférences le jour même !
-
-{{< admonition question "Des questions ?" false >}}
-Vous pouvez poser vos questions sur le [Discord](https://discord.prepas-mp2i.org/) ou par mail : [contact@prepas-mp2i.org](mailto:contact@prepas-mp2i.org)
-{{< /admonition >}}
 
 ## Intervenants
 
