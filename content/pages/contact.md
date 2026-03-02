@@ -48,7 +48,7 @@ Voici les mails des étudiants désignés comme représentant de leur établisse
 |              Hoche               |  Versailles   |        [falafel.evrard@protonmail.com](mailto:falafel.evrard@protonmail.com)        |
 |         Janson De Sailly         |   Paris 16    |          [corti.flavio@protonmail.com](mailto:corti.flavio@protonmail.com)          |
 |              Joffre              |  Montpellier  |               [tibestarthur@gmail.com](mailto:tibestarthur@gmail.com)               |
-|              Kléber              |  Strasbourg   |                               [Indisponible](mailto:)                               |
+|              Kléber              |  Strasbourg   |                               [indisponible](mailto:)                               |
 |     La Martinière Monplaisir     |     Lyon      |                 [jl10141516@gmail.com](mailto:jl10141516@gmail.com)                 |
 |              Lesage              |    Vannes     |              [k.guerin29460@gmail.com](mailto:k.guerin29460@gmail.com)              |
 |             Le Parc              |    Lyon 06    |              [indisponible](mailto:)              |
@@ -56,7 +56,7 @@ Voici les mails des étudiants désignés comme représentant de leur établisse
 |         Louis Thuillier          |    Amiens     |       [titouan.leveque@protonmail.com](mailto:titouan.leveque@protonmail.com)       |
 |            Montaigne             |   Bordeaux    |              [albin.comet@laposte.net](mailto:albin.comet@laposte.net)              |
 |           Paul Valery            |   Paris 12    |                [draymonepro@gmail.com](mailto:draymonepro@gmail.com)                |
-|         Pierre De Fermat         |   Toulouse    |                               [Indisponible](mailto:)                               |
+|         Pierre De Fermat         |   Toulouse    |                               [indisponible](mailto:)                               |
 |           Saint-Louis            |   Paris 06    |            [contact.mp2i.sl@proton.me](mailto:contact.mp2i.sl@proton.me)            |
 |              Thiers              | Marseille 01  |                 [leo.kosman@proton.me](mailto:leo.kosman@proton.me)                 |
 |           Victor Hugo            |   Besançon    |          [alexis.chavy@protonmail.com](mailto:alexis.chavy@protonmail.com)          |
