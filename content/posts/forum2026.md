@@ -32,7 +32,7 @@ En tant que lycéen, en tant que parent d'élève, ou qui que vous soyez, vous �
 Vous pouvez vous connecter au forum via ce lien : [Forum](https://visio-agents.education.fr/meeting/signin/invite/437062/creator/96179/hash/62b0265f99b035d950d0295d72f74f9dc19c3a5e)
 
 {{< admonition question "Des questions ?" false >}}
-Vous pouvez poser vos questions sur le [Discord](https://discord.prepas-mp2i.org/) ou par mail : [contact@prepas-mp2i.org](mailto:contact@prepas-mp2i.org)
+Vous pouvez poser vos questions sur le [Discord](https://discord.prepas-mp2i.fr/) ou par mail : [contact@prepas-mp2i.fr](mailto:contact@prepas-mp2i.fr)
 {{< /admonition >}}
 
 ## Présentation

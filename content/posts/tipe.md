@@ -132,7 +132,7 @@ Les exemples présentés ici sont de vrais  TIPE d'étudiants en MPI. Les droits
 
 Le thème de l'année 2025 est vaste et peut être abordé de nombreuses façons différentes. Originalité et créativité sont de mise !
 
-*Proposez-nous le vôtre par [mail](mailto:contact@prepas-mp2i.org) ou sur notre [discord](https://discord.prepas-mp2i.org/) !*
+*Proposez-nous le vôtre par [mail](mailto:contact@prepas-mp2i.fr) ou sur notre [discord](https://discord.prepas-mp2i.fr/) !*
 
 #### Tétraconcours
 

@@ -14,8 +14,8 @@ Le dépôt original est disponible à [cette URL](https://github.com/prepas-mp2i
 Installez [Hugo](https://gohugo.io/getting-started/installing/) (en version "extended") et [Git](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git) puis configurez le repo:
 
 ```sh
-git clone https://github.com/prepas-mpi/prepas-mp2i.org
-cd prepas-mp2i.org
+git clone https://github.com/prepas-mpi/prepas-mp2i.fr
+cd prepas-mp2i.fr
 git submodule init && git submodule update
 ```
 
@@ -27,8 +27,8 @@ hugo serve -e production
 
 ## Contact
 
-N'hésitez pas à contacter [contact@prepas-mp2i.org](mailto:contact@prepas-mp2i.org) pour tout renseignement.
+N'hésitez pas à contacter [contact@prepas-mp2i.fr](mailto:contact@prepas-mp2i.fr) pour tout renseignement.
 
 ## Licence
 
-Ce projet est distribué sous la licence Mozilla Public License 2.0. Vous pouvez consulter les détails de cette licence dans le fichier [LICENSE](https://github.com/prepas-mpi/prepas-mp2i.org/blob/master/LICENSE).
+Ce projet est distribué sous la licence Mozilla Public License 2.0. Vous pouvez consulter les détails de cette licence dans le fichier [LICENSE](https://github.com/prepas-mpi/prepas-mp2i.fr/blob/master/LICENSE).
