@@ -20,6 +20,9 @@ Cette page concerne le forum **de la filière MPI/MP2I**, destiné premièrement
 Si vous êtes déjà en MP2I ou en MPI, les informations concernant le forum **des Grandes Écoles** sont disponibles sur [cette page](/posts/forum-grandes-ecoles-2025).
 {{< /admonition >}}
 
+{{< admonition info "Forum terminé" >}}
+Le forum 2026 est terminé ! Cette année, plus de 50 lycéens et parents d'élèves ont pu être informés grâce au forum ! {{< newline >}}
+
 {{< figure
     caption="Réalisée par Emma"
     src="/images/forum/affiche_2026.webp"
@@ -42,12 +45,10 @@ En bref, il s'agit d'une journée portes ouvertes virtuelle via des visioconfér
 
 Cette édition accueillera à la fois des étudiants en MP2I, MPI, 5/2 (élèves ayant redoublé leur deuxième année pour repasser les concours) et école d'ingénieur provenant de MPI. Des professeurs interviendront éventuellement sur différents stands.
 
-
 ## Organisation
 
 Le forum des étudiants et étudiantes en MP2I/MPI se tiendra **le samedi 21 février 2026 l'après-midi**.
 Il s'organisera autour de différents stands composés de 2 ou 3 établissements géographiquement proches qui tourneront toutes les heures afin que vous puissiez obtenir des réponses et des témoignages d'étudiants venants de prépas différentes.
-
 
 ## Intervenants
 
