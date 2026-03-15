@@ -95,13 +95,13 @@ La MP2I étant la filière CPGE la plus récente (ouverture en 2021), tous les �
 Les lycées les plus prestigieux sont donc, pour la plupart, plus difficiles à intégrer en MP2I qu'en MPSI.
 À noter que la filière reste très accessible dans certains établissements, n'hésitez pas à faire de nombreux vœux pour vous retrouver dans une prépa à votre niveau.
 
-Voici les chiffres cumulés pour l'année 2024 :
+Voici les chiffres cumulés pour l'année 2025 :
 
-- Nombre de places : 1617
-- Nombre moyen de voeux formulés par établissement : 1499
-- Nombre moyen de propositions d'admission envoyées : 262
-- Rang moyen du dernier admis : 379
-- Taux d'admission moyen : 40.5%
+- Nombre de places : 1670
+- Nombre moyen de voeux formulés par établissement : 1517
+- Nombre moyen de propositions d'admission envoyées : 253
+- Rang moyen du dernier admis : 332
+- Taux d'admission moyen : 29.5%
 
 _Données extraites grâce à [ce script python](/technical/parcoursup_extraction.py) et aux données fournies par data.education.gouv.fr_
 
