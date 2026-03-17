@@ -22,6 +22,7 @@ Si vous êtes déjà en MP2I ou en MPI, les informations concernant le forum **d
 
 {{< admonition info "Forum terminé" >}}
 Le forum 2026 est terminé ! Cette année, plus de 50 lycéens et parents d'élèves ont pu être informés grâce au forum ! {{< newline >}}
+{{< /admonition >}}
 
 {{< figure
     caption="Réalisée par Emma"
