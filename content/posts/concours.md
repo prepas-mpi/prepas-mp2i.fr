@@ -23,7 +23,7 @@ Les informations présentes sur cette page ne sont pas exhaustives ; elles perme
 
 ▶ Dernière mise à jour des places : 2026 (en cours de mise à jour)
 
-▶ Dernière mise à jour des épreuves : 2025
+▶ Dernière mise à jour des épreuves : 2026
 {{< /admonition >}}
 
 ## Informations générales
@@ -146,7 +146,7 @@ Il est cependant possible de valider une Licence 3 de mathématiques à l'univer
 | Informatique C            |     -      |     5      |      4      |      5      |          5          |          5          |   5    |
 | Informatique Fondamentale |     4      |     4      |      -      |      4      |          5          |          5          |   3    |
 | Physique MPI              |     4      |     2      |   4 (adm)   |      -      |          -          |          -          |   -    |
-| Langue Vivante            |  3 (adm)   |  3 (adm)   |  2,5 (adm)  |   3 (adm)   |      1,5 (adm)      |      1,5 (adm)      |   2    |
+| Langue Vivante            |  3 (adm)   |  3 (adm)   |  2,5 (adm)  |   2 (adm)   |      1,5 (adm)      |      1,5 (adm)      |   2    |
 | Français                  |  8 (adm)   |  8 (adm)   |  2,5 (adm)  |   2 (adm)   |       2 (adm)       |       2 (adm)       |   2    |
 
 \**adm : compte uniquement pour l'admission finale, pas pour l'admissibilité aux oraux.*
@@ -268,7 +268,7 @@ Les concours ne sont pas les seuls moyens d'intégrer les ENS, il existe égalem
 ## Concours Mines-Ponts
 
 > {{< center >}}
-[Site officiel](https://www.concoursminesponts.fr) - [Notice du concours](https://concoursminesponts.fr/wp-content/uploads/2025/01/Reglement-2025_30-01-25.pdf) - [Liste des écoles](https://concoursminesponts.fr/wp-content/uploads/2025/01/Notice-des-ecoles-2025_30-01-25.pdf)
+[Site officiel](https://www.concoursminesponts.fr) - [Notice du concours](https://concoursminesponts.fr/wp-content/uploads/2025/12/reglement-2026-09.12.25.pdf) - [Liste des écoles](https://concoursminesponts.fr/wp-content/uploads/2025/12/notice-des-ecoles-2026-22.12.25.pdf)
 {{< /center >}}
 
 ### Détail des places
@@ -407,14 +407,14 @@ Les candidats passent uniquement les [épreuves orales du concours commun Mines-
 | Mathématiques | 30 min |      8      |                  -                  |                                                                                               2 exercices                                                                                                |
 | Informatique  | 30 min |      8      | 15 min de lecture du sujet en amont |                                                                                                    -                                                                                                     |
 |    Anglais    | 20 min |     7*      |                  -                  |                                                               Rapide présentation + Commentaire d'un document iconographique + Jeu de rôle                                                               |
-|   Entretien   | 20 min |     7*      |                  -                  | Première partie : "Imaginer un produit ou un service qui réponde à un défi de société au moyen d’une technologie spécifique." ➞ 1 enjeu sociétal (image) + 1 technologie au choix parmi 2 (image + nom) |
+|   Entretien   | 25 min |     7*      |                  -                  | Première partie : "Imaginer un produit ou un service qui réponde à un défi de société au moyen d’une technologie spécifique." ➞ 1 enjeu sociétal (image) + 1 technologie au choix parmi 2 (image + nom) |
 
 \**Une note inférieure à 4/20 est éliminatoire.*
 
 ## Concours CCINP
 
 > {{< center >}}
-[Site officiel](https://www.concours-commun-inp.fr/fr/index.html) - [Notice du concours](https://www.concours-commun-inp.fr/_resource/CCINP-notice-2025_VF.pdf) - [Liste des écoles](https://www.concours-commun-inp.fr/fr/les-ecoles.html)
+[Site officiel](https://www.concours-commun-inp.fr/fr/index.html) - [Notice du concours](https://www.concours-commun-inp.fr/_resource/R%C3%A8glement_VF_23-02.pdf) - [Liste des écoles](https://www.concours-commun-inp.fr/fr/les-ecoles.html)
 {{< /center >}}
 
 ### Détail des places
@@ -733,14 +733,14 @@ Les épreuves d'**Informatique**, de **Français-Philosophie** et de **Langue Vi
 
 {{< admonition info "Coefficients" false >}}
 
-|            Épreuve             | Polytech | AVENIR PREPAS | Ingeni'up | PUISSANCE ALPHA-CPGE | EIDD - Paris | EIL Côte d'Opale | IMT Nord Europe* |
-| :----------------------------: | :------: | :-----------: | :-------: | :------------------: | :----------: | :--------------: | :--------------: |
-|         Mathématiques          |    8     |       6       |     5     |          8           |      8       |        5         |        9         |
-|        Physique-Chimie         |    6     |       4       |     4     |          5           |      6       |        5         |        9         |
-|          Informatique          |    8     |       4       |     5     |          8           |      8       |        5         |        4         |
-|      Français-Philosophie      |    5     |       3       |     3     |          3           |      5       |        4         |        5         |
-|        Langue vivante A        |    5     |       3       |     2     |          3           |      5       |        4         |        5         |
-| Langue vivante B (facultative) |    2     |       1       |     1     |          1           |      2       |        4         |        2         |
+|            Épreuve             | Polytech | AVENIR PREPAS | Ingeni'up | PUISSANCE ALPHA-CPGE | EIA Béthune  | EIDD - Paris | EIJV Amiens - Saint Quentin | EIL Côte d'Opale | IMT Nord Europe* |
+| :----------------------------: | :------: | :-----------: | :-------: | :------------------: | :----------: | :----------: | :-------------------------: | :--------------: | :--------------: |
+|         Mathématiques          |    8     |       6       |     5     |          8           |      9       |      8       |              8              |        5         |        9         |
+|        Physique-Chimie         |    6     |       4       |     4     |          5           |      9       |      6       |              6              |        5         |        9         |
+|          Informatique          |    8     |       4       |     5     |          8           |      9       |      8       |              8              |        5         |        4         |
+|      Français-Philosophie      |    5     |       3       |     3     |          3           |      6       |      5       |              5              |        4         |        5         |
+|        Langue vivante A        |    5     |       3       |     2     |          3           |      6       |      3       |              5              |        4         |        5         |
+| Langue vivante B (facultative) |    2     |       1       |     1     |          1           |      1       |      2       |              2              |        4         |        2         |
 
 \**En partenariat avec l’ISPA*
 {{< /admonition >}}
@@ -751,9 +751,9 @@ Pour les écoles du concours POLYTECH, seule l'épreuve commune de **[TIPE][TIPE
 
 Pour les autres écoles, il y a un **entretien** affecté des coefficients suivants :
 
-| AVENIR PREPAS | Ingéni'Up | PUISSANCE ALPHA CPGE | EIDD - Paris | EIL Côte d'Opale | IMT Nord Europe\* |
-| :-----------: | :-------: | :------------------: | :----------: | :--------------: | :---------------: |
-|       9       |     ∅     |          14          |      ∅       |        10        |        15         |
+| AVENIR PREPAS | Ingéni'Up | PUISSANCE ALPHA CPGE | EIA Béthune  | EIDD - Paris | EIJV Amiens - Saint Quentin | EIL Côte d'Opale | IMT Nord Europe\* |
+| :-----------: | :-------: | :------------------: | :----------: | :----------: | :-------------------------: | :--------------: | :---------------: |
+|       9       |     ∅     |          14          |      20      |      ∅       |              10             |        10        |        15         |
 
 \**En partenariat avec l’ISPA*
 
