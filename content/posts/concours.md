@@ -32,7 +32,7 @@ Les informations présentes sur cette page ne sont pas exhaustives ; elles perme
 
 | Polytechnique | ENS | Centrale | Mines-Ponts | Mines Télécom | CCINP | E3A-Polytech |
 | :-----------: | :-: | :------: | :---------: | :-----------: | :---: | :----------: |
-|      22       | 51  |   118    |     143     |      207      |  211  |     161+     |
+|      22       | 51  |   160    |     143     |      207      |  211  |     161+     |
 
 ### Répartition des coefficients
 
@@ -194,19 +194,36 @@ Les concours ne sont pas les seuls moyens d'intégrer les ENS, il existe égalem
 
 ### Détail des places
 
-| École                   | Nombre de places・136 |
-| :---------------------- | :-------------------: |
-| [CentraleSupélec]       |          36           |
-| [Centrale Lyon]         |          15           |
-| [Centrale Lille]        |          15           |
-| [Centrale Nantes]       |           5           |
-| [Centrale Méditerranée] |          10           |
-| [Centrale Casablanca]   |           2           |
-| [SupOptique]            |           8           |
-| [École navale]          |           3           |
-| [ENSEA]                 |          15           |
-| [EPF]                   |          14           |
-| [ESTP]                  |          11           |
+| École                   | Filière                                              | Nombre de places・160 |
+| :---------------------- | :--------------------------------------------------- | :-------------------: |
+| [CentraleSupélec]       | Généraliste                                          |          39           |
+| 〃                      | Cybersécurité (Rennes)                               |           5           |
+| 〃                      | Électronique (Rennes puis Paris-Saclay)              |           1           |
+| 〃                      | Génie électrique (Rennes)                            |           1           |
+| 〃                      | Informatique (Metz)                                  |           5           |
+| 〃                      | Génie physique (Metz)                                |           1           |
+| 〃                      | Systèmes numériques (Rennes)                         |           1           |
+| [Centrale Lyon]         |                                                      |          15           |
+| [Centrale Lille]        |                                                      |          10           |
+| 〃                      | IG2I Lens (Informatique & Informatique industrielle) |           5           |
+| [Centrale Nantes]       |                                                      |           5           |
+| [Centrale Méditerranée] |                                                      |          10           |
+| [Centrale Casablanca]   |                                                      |           2           |
+| [SupOptique]            |                                                      |           8           |
+| [École navale]          |                                                      |           5           |
+| [ENSEA]                 |                                                      |          15           |
+| [EPF]                   | Cachan - Étudiant                                    |           2           |
+| 〃                      | Cachant - Apprenti (FISEA)                           |           2           |
+| 〃                      | Troyes - Étudiant                                    |           6           |
+| 〃                      | Troyes - Apprenti (FISEA)                            |           3           |
+| 〃                      | Montpellier - Étudiant                               |           2           |
+| 〃                      | Montpellier - Apprenti (FISEA)                       |           2           |
+| 〃                      | Saint-Nazaire - Étudiant                             |           4           |
+| 〃                      | Saint-Nazaire - Apprenti (FISEA)                     |           2           |
+| [ESTP]                  | Cachan                                               |           3           |
+| 〃                      | Troyes                                               |           2           |
+| 〃                      | Dijon                                                |           2           |
+| 〃                      | Orléan                                               |           2           |
 
 [CentraleSupélec]: https://www.centralesupelec.fr/
 [Centrale Lyon]: https://www.ec-lyon.fr/
