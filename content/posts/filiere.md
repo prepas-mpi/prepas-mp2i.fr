@@ -57,7 +57,7 @@ Concernant les autres matières : le français-philosophie et la LV1 ont le mêm
 Cependant, la plupart des élèves gardent une activité extra scolaire pour ne pas faire que des maths toute la journée !
 
 {{< admonition question "MP2I ou MPSI ?" >}}
-Si vous souhaitez vous renseigner sur les différences entre la MP2I et la MPSI et comment savoir laquelle choisir, vous pouvez consulter [cette page](/posts/mp2i_ou_mpsi/).
+Si vous souhaitez vous renseigner sur les différences entre la MP2I et la MPSI et comment savoir laquelle choisir, vous pouvez consulter [cette page](/posts/mp2i-ou-mpsi/).
 {{< /admonition >}}
 
 ## La spécialité en deuxième année
