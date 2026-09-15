@@ -45,11 +45,11 @@ Voici les mails des étudiants désignés comme représentant de leur établisse
 |            Gay-Lussac            |    Limoges    |               [loictrinquet@gmail.com](mailto:loictrinquet@gmail.com)               |
 |          Henri Poincaré          |     Nancy     |           [gabrielringeisen@gmail.com](mailto:gabrielringeisen@gmail.com)           |
 |           Henri Wallon           | Valenciennes  |                               [indisponible](mailto:)                               |
-|              Hoche               |  Versailles   |        [indisponible](mailto:)        |
+|              Hoche               |  Versailles   |                               [indisponible](mailto:)                               |
 |         Janson De Sailly         |   Paris 16    |          [corti.flavio@protonmail.com](mailto:corti.flavio@protonmail.com)          |
 |              Joffre              |  Montpellier  |               [tibestarthur@gmail.com](mailto:tibestarthur@gmail.com)               |
 |              Kléber              |  Strasbourg   |                               [indisponible](mailto:)                               |
-|     La Martinière Monplaisir     |     Lyon      |                 [jl10141516@gmail.com](mailto:jl10141516@gmail.com)                 |
+|     La Martinière Monplaisir     |     Lyon      |                               [indisponible](mailto:)                               |
 |              Lesage              |    Vannes     |              [k.guerin29460@gmail.com](mailto:k.guerin29460@gmail.com)              |
 |             Le Parc              |    Lyon 06    |                     [referent@hxi2.fr](mailto:referent@hxi2.fr)                     |
 |          Louis Le Grand          |   Paris 05    |                   [mp2i.llg@gmail.com](mailto:mp2i.llg@gmail.com)                   |
