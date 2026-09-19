@@ -46,7 +46,7 @@ Voici les mails des étudiants désignés comme représentant de leur établisse
 |          Henri Poincaré          |     Nancy     |           [gabrielringeisen@gmail.com](mailto:gabrielringeisen@gmail.com)           |
 |           Henri Wallon           | Valenciennes  |                               [indisponible](mailto:)                               |
 |              Hoche               |  Versailles   |                               [indisponible](mailto:)                               |
-|         Janson De Sailly         |   Paris 16    |          [corti.flavio@protonmail.com](mailto:corti.flavio@protonmail.com)          |
+|         Janson De Sailly         |   Paris 16    |                               [indisponible](mailto:)                               |
 |              Joffre              |  Montpellier  |               [tibestarthur@gmail.com](mailto:tibestarthur@gmail.com)               |
 |              Kléber              |  Strasbourg   |                               [indisponible](mailto:)                               |
 |     La Martinière Monplaisir     |     Lyon      |                               [indisponible](mailto:)                               |
