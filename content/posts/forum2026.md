@@ -17,6 +17,7 @@ Si vous êtes déjà en MP2I ou en MPI, les informations concernant le forum **d
 
 {{< admonition info "Forum terminé" >}}
 Le forum 2026 est terminé ! Cette année, plus de 50 lycéens et parents d'élèves ont pu être informés grâce au forum ! {{< newline >}}
+Vous pouvez trouver le forum de l'année prochaine [ici](/posts/forum2027) !
 {{< /admonition >}}
 
 {{< figure
@@ -47,8 +48,6 @@ Le forum des étudiants et étudiantes en MP2I/MPI se tiendra **le samedi 21 fé
 Il s'organisera autour de différents stands composés de 2 ou 3 établissements géographiquement proches qui tourneront toutes les heures afin que vous puissiez obtenir des réponses et des témoignages d'étudiants venants de prépas différentes.
 
 ## Intervenants
-
-> Vous êtes un étudiant de en MP2I ou en MPI et vous souhaitez présenter la filière ? Signalez vous sur le Discord !
 
 Cette année, déjà 6 prépas MP2I/MPI ont annoncé leur présence ! Vous trouverez ci-dessous la liste des 6 intervenants et intervenantes qui se sont proposés :
 

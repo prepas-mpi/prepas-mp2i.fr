@@ -1,0 +1,25 @@
+{{ $date := .Get "date" }}
+{{ $label := .Get "label" | default "Temps restant :" }}
+{{ $ended := .Get "ended" | default "Terminé !"}}
+
+<p id="timer"></p>
+
+<script>
+var countDownDate = new Date("{{ $date }}").getTime();
+
+var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("timer").innerHTML = "{{ $label }}" + days + " jours " + hours + " heures " + minutes + " minutes " + seconds + " secondes ";
+
+    if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "{{ $ended }}";
+  }
+}, 1000);
+</script>
