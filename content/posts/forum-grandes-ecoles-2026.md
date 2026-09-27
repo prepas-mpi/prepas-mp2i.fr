@@ -1,6 +1,6 @@
 ---
 title: Forum 2026 des Grandes Écoles
-slug: forum-grandes-ecoles-2025
+slug: forum-grandes-ecoles-2026
 date: 2026-07-18T14:00:00+01:00
 author: Antoine, Triw
 summary: Page de présentation du forum des grandes écoles 2026. Vous y trouverez toutes les informations concernant le forum des écoles intégrables après une filière MPI-MP2I, édition 2026.
