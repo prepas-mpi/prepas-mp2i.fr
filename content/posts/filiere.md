@@ -32,7 +32,7 @@ Il existe de nombreuses filières, pour mieux vous y retrouver voici leurs spéc
 |  BCPST  |  SVT Chimie Physique  |   8   |    4     |   3    | 1.5  |  0  |  8  |  2  |       2       |
 
 {{< admonition info "Détails des filières" >}}
-Vous pourrez retrouver un petit récapitulatif de chaque filière sur [Prepas.org](https://prepas.org/index.php?rubrique=41) (alimenté par les professeurs de prépas scientifiques).
+Vous pourrez retrouver un petit récapitulatif de chaque filière sur [prepas.org](https://prepas.org/index.php?rubrique=41) (alimenté par les professeurs de prépas scientifiques).
 {{< /admonition >}}
 
 {{< admonition tip "Formations en informatique" true >}}
@@ -41,7 +41,7 @@ Il existe plein d'autres cursus pour faire de l'informatique, dont une liste est
 
 ## Poursuite d'études
 
-Après une classe préparatoire, intégrée ou non, vous avez la possibilité de poursuivre en master (bac+5), puis éventuellement en doctorat (bac+8). Mais également de poursuivre en licence, ou dans des universités à l'étranger.
+Après une classe préparatoire, intégrée ou non, vous avez la possibilité de poursuivre en master (bac + 5), puis éventuellement en doctorat (bac + 8). Mais également de poursuivre en licence, ou dans des universités à l'étranger.
 
 L'objectif principal des CPGE scientifiques est de préparer à différents [concours](/concours) permettant d'intégrer une importante liste d'[écoles](https://prepas.org/index.php?entree=bacorge), dont la plupart sont des écoles d'ingénieurs qui délivrent un diplôme Bac+5 après trois ans d'études. Bien que la voie la plus courante soit l'intégration d'une école via ces concours, d'autres possibilités de poursuite d'études existent également après une CPGE.
 
