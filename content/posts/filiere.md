@@ -43,7 +43,7 @@ Il existe plein d'autres cursus pour faire de l'informatique, dont une liste est
 
 Après une classe préparatoire, intégrée ou non, vous avez la possibilité de poursuivre en master (bac + 5), puis éventuellement en doctorat (bac + 8). Mais également de poursuivre en licence, ou dans des universités à l'étranger.
 
-L'objectif principal des CPGE scientifiques est de préparer à différents [concours](/concours) permettant d'intégrer une importante liste d'[écoles](https://prepas.org/index.php?entree=bacorge), dont la plupart sont des écoles d'ingénieurs qui délivrent un diplôme Bac+5 après trois ans d'études. Bien que la voie la plus courante soit l'intégration d'une école via ces concours, d'autres possibilités de poursuite d'études existent également après une CPGE.
+L'objectif principal des CPGE scientifiques est de préparer à différents [concours](/concours) permettant d'intégrer une importante liste d'[écoles](https://prepas.org/index.php?entree=bacorge), dont la plupart sont des écoles d'ingénieurs qui délivrent un diplôme bac + 5 après trois ans d'études. Bien que la voie la plus courante soit l'intégration d'une école via ces concours, d'autres possibilités de poursuite d'études existent également après une CPGE.
 
 > Vous pouvez retrouver des retours d'élèves ayant intégré des écoles d'ingénieurs [ici](/scei/) et des retours d'élèves ayant intégré des formations en dehors des concours principaux [ici](/posts/fac/).
 
