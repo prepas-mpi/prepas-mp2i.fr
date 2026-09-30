@@ -248,4 +248,4 @@ long int fibo(int n)
 
 Ce code est en fait basé sur un [XOR swap](https://en.wikipedia.org/wiki/XOR_swap_algorithm). Comme quoi, on peut s'amuser en MP2I/MPI, même avec une tâche aussi simple !
 
-Ne prenez pas peur si vous ne savez écrire dans aucun de ces langages, leurs compilateurs respectifs vous accompagneront tout du long en vous indiquant les erreurs et comment les corriger :wink:.
+Ne prenez pas peur si vous ne savez écrire dans aucun de ces langages, leurs compilateurs respectifs vous accompagneront tout du long en vous indiquant les erreurs et comment les corriger. :wink:

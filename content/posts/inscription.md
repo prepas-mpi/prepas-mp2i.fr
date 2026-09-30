@@ -38,7 +38,7 @@ Enfin, il ne faut pas sous-estimer l’utilité concrète de cette option : les 
 
 ### La NSI et la Physique-Chimie
 
-Hormis quelques rares exceptions, pour intégrer une classe préparatoire scientifique vous devrez au moins avoir suivi deux spécialités scientifiques en Terminale, et si possible trois en Première.
+Hormis quelques rares exceptions, pour intégrer une classe préparatoire scientifique vous devrez au moins avoir suivi deux spécialités scientifiques en Terminale, et, si possible trois en Première.
 
 La MP2I se démarque de la MPSI et de la PCSI car elle repose sur trois matières principales au lieu de deux : les Mathématiques, la Physique et l’Informatique. Pour mettre toutes les chances de votre côté, il est donc recommandé de choisir les spécialités Physique-Chimie et NSI (Numérique et Sciences Informatiques) en classe de Première pour ne pas se retrouver plus tard avec de trop grandes lacunes dans l’une ou l’autre de ces matières.
 
@@ -60,7 +60,7 @@ Cependant, bien qu'il reste possible dans de rares cas d'intégrer une MP2I sans
 
 ### La MP2I sur Parcoursup
 
-Depuis décembre, vous avez accès au catalogue des formations disponibles avec leurs critères de sélection, en quoi elles consistent et leur sélectivité.
+À partir de décembre, vous aurez accès au catalogue des formations disponibles avec leurs critères de sélection, en quoi elles consistent et leur sélectivité.
 Fin janvier, vous allez commencer à faire vos vœux, c'est le moment de se renseigner et d'aller aux portes ouvertes, en ligne ou en présentiel, rien de mieux que d'échanger avec les élèves pour se faire une idée de la formation. N'hésitez pas à nous rejoindre sur le [serveur discord des prépas MP2I/MPI](https://discord.prepas-mp2i.fr) pour poser vos questions ! Nous organisons également des [forums](https://prepas-mp2i.fr/forum/) pendant lesquels des étudiants volontaires du serveur vous présentent la filière et répondent à vos interrogations.
 
 Il y a **38 MP2I** sur Parcoursup, répertoriées [plus bas](https://prepas-mp2i.fr/inscription/#lyc%C3%A9es-proposant-la-fili%C3%A8re-mp2i) ; cela va de prépas très sélectives à d'autres beaucoup moins, donc faites des vœux divers pour vous assurer d'avoir une place en MP2I, si c'est la formation que vous désirez absolument (vous n'irez pas tous et toutes à Louis le Grand, soyons réalistes, mais il faut garder de l'ambition).
