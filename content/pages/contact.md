@@ -70,6 +70,12 @@ Rejoignez notre serveur via ce magnifique bouton :
 [![Discord](https://discordapp.com/api/guilds/872138069594214410/widget.png?style=banner2)](https://discord.prepas-mp2i.fr/)
 {{< /center >}}
 
+## Nous suivre
+
+Pour ne rien manquer de l'actualité de l'association et de nos forums, retrouvez-nous aussi sur les réseaux sociaux :
+
+{{< social "instagram" "linkedin" >}}
+
 ## Participer
 
-Si vous souhaitez contribuer au site web, vous pouvez fork le projet sur [Github](https://github.com/prepas-mpi/prepas-mp2i.fr).
+Si vous souhaitez contribuer au site web, vous pouvez fork le projet sur [GitHub](https://github.com/prepas-mpi/prepas-mp2i.fr).

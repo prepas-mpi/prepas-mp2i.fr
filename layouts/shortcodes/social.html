@@ -1,0 +1,8 @@
+{{- $socialMap := resources.Get "data/social.yml" | transform.Unmarshal -}}
+<div class="social-links">
+    {{- range .Params -}}
+    {{- $key := lower . -}}
+    {{- $id := index site.Params.social $key -}}
+    {{- partial "plugin/social.html" (dict "Id" $id | merge (index $socialMap $key)) -}}
+    {{- end -}}
+</div>
