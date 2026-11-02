@@ -33,3 +33,13 @@ instagram:
   Newtab: true
   Icon:
     Simpleicons : instagram
+
+# 005: LinkedIn
+linkedin:
+  Weight: 5
+  Prefix: https://
+  Title: LinkedIn
+  Newtab: true
+  Icon:
+    Simpleicons : linkedin
+

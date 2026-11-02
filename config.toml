@@ -104,6 +104,7 @@ enableEmoji = true
     Email = "contact@prepas-mp2i.fr"
     Discord = "discord.prepas-mp2i.fr/"
     Instagram = "instagram.com/asso_mp2i_mpi_france"
+    Linkedin = "linkedin.com/company/association-des-etudiants-en-cpge-mp2i-mpi"
     
   [params.page]
     linkToMarkdown = false
