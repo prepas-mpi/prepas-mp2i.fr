@@ -70,6 +70,13 @@ Rejoignez notre serveur via ce magnifique bouton :
 [![Discord](https://discordapp.com/api/guilds/872138069594214410/widget.png?style=banner2)](https://discord.prepas-mp2i.fr/)
 {{< /center >}}
 
+## Nous suivre
+
+Pour ne rien manquer de l'actualité de l'association et de nos forums, retrouvez-nous aussi sur les réseaux sociaux :
+
+- [Instagram](https://instagram.com/asso_mp2i_mpi_france)
+- [LinkedIn](https://linkedin.com/company/association-des-etudiants-en-cpge-mp2i-mpi)
+
 ## Participer
 
 Si vous souhaitez contribuer au site web, vous pouvez fork le projet sur [Github](https://github.com/prepas-mpi/prepas-mp2i.fr).
