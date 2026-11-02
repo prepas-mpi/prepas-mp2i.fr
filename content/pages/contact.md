@@ -74,9 +74,8 @@ Rejoignez notre serveur via ce magnifique bouton :
 
 Pour ne rien manquer de l'actualité de l'association et de nos forums, retrouvez-nous aussi sur les réseaux sociaux :
 
-- [Instagram](https://instagram.com/asso_mp2i_mpi_france)
-- [LinkedIn](https://linkedin.com/company/association-des-etudiants-en-cpge-mp2i-mpi)
+{{< social "instagram" "linkedin" >}}
 
 ## Participer
 
-Si vous souhaitez contribuer au site web, vous pouvez fork le projet sur [Github](https://github.com/prepas-mpi/prepas-mp2i.fr).
+Si vous souhaitez contribuer au site web, vous pouvez fork le projet sur [GitHub](https://github.com/prepas-mpi/prepas-mp2i.fr).
