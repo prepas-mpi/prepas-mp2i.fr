@@ -1,0 +1,21 @@
+{{- /* Génère un dataset.source ECharts : complète chaque ligne avec le pourcentage de ses valeurs
+    (la première colonne est le libellé). */ -}}
+{{- $data := printf `{"rows": %s}` .Inner | transform.Unmarshal -}}
+[
+{{- range $i, $row := $data.rows -}}
+    {{- $total := 0.0 -}}
+    {{- range after 1 $row -}}
+        {{- with . -}}{{- $total = add $total (replace . "," "." | float) -}}{{- end -}}
+    {{- end -}}
+    {{- range after 1 $row -}}
+        {{- if . -}}
+            {{- $row = $row | append (div (mul 100 (replace . "," "." | float)) $total) -}}
+        {{- else -}}
+            {{- /* Si la valeur est null, on garde null */ -}}
+            {{- $row = $row | append nil -}}
+        {{- end -}}
+    {{- end -}}
+    {{- if $i -}},{{- end -}}
+    {{- $row | jsonify -}}
+{{- end -}}
+]

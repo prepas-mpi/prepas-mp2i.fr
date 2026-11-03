@@ -21,7 +21,7 @@ Les informations sur les concours pour la filière MPI ont été regroupées à 
 {{< admonition warning "Attention !" true >}}
 Les informations présentes sur cette page ne sont pas exhaustives ; elles permettent seulement un aperçu rapide, et ne sont pas nécessairement à jour. Référez-vous systématiquement aux notices de l'année en cours pour garantir la fiabilité et la précision de vos informations.
 
-▶ Dernière mise à jour des places : 2026 (en cours de mise à jour)
+▶ Dernière mise à jour des places : novembre 2026
 
 ▶ Dernière mise à jour des épreuves : 2026
 {{< /admonition >}}
@@ -32,17 +32,65 @@ Les informations présentes sur cette page ne sont pas exhaustives ; elles perme
 
 | Polytechnique | ENS | Centrale | Mines-Ponts | Mines Télécom | CCINP | E3A-Polytech |
 | :-----------: | :-: | :------: | :---------: | :-----------: | :---: | :----------: |
-|      22       | 51  |   160    |     143     |      207      |  211  |     161+     |
+|      22       | 51  |   160    |     143     |      232      |  211  |     212+     |
 
 ### Répartition des coefficients
 
 Le graphique ci-dessous présente les coefficients par matière dans les différents concours, oraux et écrits confondus.
 
-{{< figure
-    src="/images/coefs_matieres_2025.png"
-    class="invert"
-    caption="\**Sauf certaines écoles, consultez le bandeau [coefficients différents](/concours/#concours-ccinp) pour plus d'informations.*"
->}}
+{{< echarts "100%" "36rem" >}}
+{
+  "backgroundColor": "transparent",
+  "tooltip": {"trigger": "item"},
+  "legend": {"bottom": 0},
+  "grid": {"left": "2%", "right": "2%", "top": "3%", "bottom": 60, "containLabel": true},
+  "dataset": {
+    "dimensions": ["Concours", "Maths", "Info", "Physique", {"name": "Français", "type": "ordinal"}, {"name": "Anglais", "type": "ordinal"}, "TIPE/ADS/Entretien", "Sport", "Maths %", "Info %", "Physique %", "Français %", "Anglais %", "TIPE/ADS/Entretien %", "Sport %"],
+    "source": {{< percent-source >}}[
+      ["Polytechnique", 35, 31, 26, 14, 14, 15, 5],
+      ["ENS Ulm (M)", 38, 19, 19, 8, 6, null, null],
+      ["ENS Ulm (I)", 25, 49, 2, 8, 6, null, null],
+      ["ENS Lyon (M)", 18, 8, 4, "2,5", 4, 2, null],
+      ["ENS Lyon (I)", 8, 20, null, 2, "3,5", 2, null],
+      ["ENS Paris-Saclay (M)", 11, 21, null, 2, 3, 2, null],
+      ["ENS Paris-Saclay (I)", 8, 24, null, 2, 3, 2, null],
+      ["ENS Rennes", 3, 22, null, 2, 4, 5, null],
+      ["Centrale", 72, 32, 44, 17, 24, 11, null],
+      ["Mines-Ponts", 20, 13, 13, 11, 8, 6, null],
+      ["Mines-Télécom", 17, 15, 6, 5, 10, 7, null],
+      ["CCINP*", 30, 22, 19, 9, 10, 8, null]
+    ]{{< /percent-source >}}
+  },
+  "xAxis": {"type": "category", "axisLabel": {"interval": 0, "rotate": 45}},
+  "yAxis": {"type": "value", "min": 0, "max": 100, "axisLabel": {"formatter": "{value} %"}},
+  "series": [
+    {"name": "Maths", "type": "bar", "stack": "total", "barWidth": "70%", "itemStyle": {"color": "#1f77b4"}, "encode": {"x": "Concours", "y": "Maths %", "tooltip": "Maths"},
+     "label": {"show": true, "color": "#fff", "fontSize": 11, "formatter": "{@Maths}"}},
+
+    {"name": "Info", "type": "bar", "stack": "total", "barWidth": "70%", "itemStyle": {"color": "#9467bd"}, "encode": {"x": "Concours", "y": "Info %", "tooltip": "Info"},
+     "label": {"show": true, "color": "#fff", "fontSize": 11, "formatter": "{@Info}"}},
+
+    {"name": "Physique", "type": "bar", "stack": "total", "barWidth": "70%", "itemStyle": {"color": "#e377c2"}, "encode": {"x": "Concours", "y": "Physique %", "tooltip": "Physique"},
+     "label": {"show": true, "color": "#333", "fontSize": 11, "formatter": "{@Physique}"}},
+
+    {"name": "Français", "type": "bar", "stack": "total", "barWidth": "70%", "itemStyle": {"color": "#d62728"}, "encode": {"x": "Concours", "y": "Français %", "tooltip": "Français"},
+     "label": {"show": true, "color": "#fff", "fontSize": 11, "formatter": "{@Français}"}},
+
+    {"name": "Anglais", "type": "bar", "stack": "total", "barWidth": "70%", "itemStyle": {"color": "#ff7f0e"}, "encode": {"x": "Concours", "y": "Anglais %", "tooltip": "Anglais"},
+     "label": {"show": true, "color": "#333", "fontSize": 11, "formatter": "{@Anglais}"}},
+
+    {"name": "TIPE/ADS/Entretien", "type": "bar", "stack": "total", "barWidth": "70%", "itemStyle": {"color": "#bcbd22"}, "encode": {"x": "Concours", "y": "TIPE/ADS/Entretien %", "tooltip": "TIPE/ADS/Entretien"},
+     "label": {"show": true, "color": "#333", "fontSize": 11, "formatter": "{@TIPE/ADS/Entretien}"}},
+     
+    {"name": "Sport", "type": "bar", "stack": "total", "barWidth": "70%", "itemStyle": {"color": "#2ca02c"}, "encode": {"x": "Concours", "y": "Sport %", "tooltip": "Sport"},
+     "label": {"show": true, "color": "#fff", "fontSize": 11, "formatter": "{@Sport}"}}
+  ]
+}
+{{< /echarts >}}
+
+{{< center >}}
+\**Sauf certaines écoles, consultez le bandeau [coefficients différents](/concours/#concours-ccinp) pour plus d'informations.*
+{{< /center >}}
 
 ### Statistiques
 
@@ -213,7 +261,7 @@ Les concours ne sont pas les seuls moyens d'intégrer les ENS, il existe égalem
 | [École navale]          |                                                      |           5           |
 | [ENSEA]                 |                                                      |          15           |
 | [EPF]                   | Cachan - Étudiant                                    |           2           |
-| 〃                      | Cachant - Apprenti (FISEA)                           |           2           |
+| 〃                      | Cachan - Apprenti (FISEA)                            |           2           |
 | 〃                      | Troyes - Étudiant                                    |           6           |
 | 〃                      | Troyes - Apprenti (FISEA)                            |           3           |
 | 〃                      | Montpellier - Étudiant                               |           2           |
@@ -223,7 +271,7 @@ Les concours ne sont pas les seuls moyens d'intégrer les ENS, il existe égalem
 | [ESTP]                  | Cachan                                               |           3           |
 | 〃                      | Troyes                                               |           2           |
 | 〃                      | Dijon                                                |           2           |
-| 〃                      | Orléan                                               |           2           |
+| 〃                      | Orléans                                              |           2           |
 
 [CentraleSupélec]: https://www.centralesupelec.fr/
 [Centrale Lyon]: https://www.ec-lyon.fr/
@@ -349,28 +397,28 @@ Les concours ne sont pas les seuls moyens d'intégrer les ENS, il existe égalem
 
 ### Détail des places
 
-| École                                | Filière                                       | Nombre de places・207 |
+| École                                | Filière                                       | Nombre de places・232 |
 | :----------------------------------- | :-------------------------------------------- | :-------------------: |
-| [Télécom SudParis]                   |                                               |          42           |
-| [Télécom Saint-Étienne]              |                                               |          13           |
-| [Télécom Physique Strasbourg]        | [Informatique et Réseaux]                     |          10           |
+| [Télécom SudParis]                   |                                               |          40           |
+| [Télécom Saint-Étienne]              |                                               |          15           |
+| [Télécom Physique Strasbourg]        | [Informatique et Réseaux]                     |          15           |
 | 〃                                   | [Technologies de l’Information pour la Santé] |           4           |
-| [Télécom Nancy]                      |                                               |          30           |
-| [Mines-Saint-Étienne - ISMIN]        |                                               |           5           |
-| [ISAE-Supméca]                       |                                               |           1           |
+| [Télécom Nancy]                      |                                               |          47           |
+| [Mines-Saint-Étienne - ISMIN]        |                                               |           8           |
+| [ISAE-Supméca]                       |                                               |           2           |
 | [ISAE-ENSMA]                         |                                               |           3           |
 | [IMT Nord Europe]                    | Civil                                         |           5           |
 | [IMT Mines Alès]                     |                                               |           5           |
 | [IMT Mines Albi]                     |                                               |           4           |
 | [Géodata Paris]*                     | Civil                                         |           4           |
 | 〃                                   | Fonctionnaire                                 |           2           |
-| [EURECOM]                            |                                               |          20           |
+| [EURECOM]                            |                                               |          18           |
 | [ENTPE]                              | Civil                                         |           2           |
 | 〃                                   | Fonctionnaire                                 |           3           |
 | [ENSTA] - FIDS**                     | sous statut étudiant                          |           4           |
 | 〃                                   | sous statut [IETA]                            |           4           |
-| [ENSSAT]                             |                                               |          16           |
-| [ENSIIE]                             |                                               |          18           |
+| [ENSSAT]                             |                                               |          15           |
+| [ENSIIE]                             |                                               |          20           |
 | [ENAC]                               | [Civil][ENAC Civil]                           |           9           |
 | 〃                                   | [Fonctionnaire][ENAC Fonctionnaire]           |           1           |
 | [Ecole Nationale de la Météorologie] | Fonctionnaire                                 |           2           |
@@ -431,7 +479,7 @@ Les candidats passent uniquement les [épreuves orales du concours commun Mines-
 ## Concours CCINP
 
 > {{< center >}}
-[Site officiel](https://www.concours-commun-inp.fr/fr/index.html) - [Notice du concours](https://www.concours-commun-inp.fr/_resource/R%C3%A8glement_VF_23-02.pdf) - [Liste des écoles](https://www.concours-commun-inp.fr/fr/les-ecoles.html)
+[Site officiel](https://www.concours-commun-inp.fr/fr/index.html) - [Notice du concours](https://www.concours-commun-inp.fr/_resource/R%C3%A8glement_VF_23-06.pdf) - [Liste des écoles](https://www.concours-commun-inp.fr/fr/les-ecoles.html)
 {{< /center >}}
 
 ### Détail des places
@@ -571,49 +619,51 @@ Les candidats passent uniquement les [épreuves orales du concours commun Mines-
 ## Concours E3A-Polytech
 
 > {{< center >}}
-[Site officiel](https://www.e3a-polytech.fr) - [Notice du concours](https://www.e3a-polytech.fr/wp-content/uploads/2024/12/VF-Notice-2025-Banque-e3a-Polytech.pdf) - [Liste des écoles](https://www.e3a-polytech.fr/les-ecoles/)
+[Site officiel](https://www.e3a-polytech.fr) - [Notice du concours](https://www.e3a-polytech.fr/wp-content/uploads/2026/06/VF-Notice-2026-Banque-e3a-Polytech.pdf) - [Liste des écoles](https://www.e3a-polytech.fr/les-ecoles/)
 {{< /center >}}
 
 ### Détail des places
 
 #### Concours POLYTECH
 
-|           École            |                     Spécialité                      | Nombre de places・95 |
-| :------------------------: | :-------------------------------------------------: | :------------------: |
-| [Polytech Annecy-Chambéry] |             Informatique Données Usages             |          2           |
-|    [Polytech Clermont]     |      Ingénierie Mathématiques et Data Science       |          4           |
-|      [Polytech Dijon]      |               Informatique et réseaux               |          2           |
-|      [Polytech Dijon]      |                      Robotique                      |          3           |
-|    [Polytech Grenoble]     |                    Informatique                     |          2           |
-|    [Polytech Grenoble]     | Informatique et électronique des systèmes embarqués |          3           |
-|    [Polytech Grenoble]     |     Technologies de l'information pour la santé     |          2           |
-|      [Polytech Lille]      |             Informatique et statistique             |          3           |
-|      [Polytech Lille]      |        Internet des objets et cybersécurité         |          3           |
-|      [Polytech Lyon]       |                  Génie Biomédical                   |          2           |
-|      [Polytech Lyon]       |                    Informatique                     |          3           |
-|      [Polytech Lyon]       |      Mathématiques Appliquées et Modélisation       |          2           |
-|      [Polytech Lyon]       |           Systèmes Industriels, Robotique           |          2           |
-|    [Polytech Marseille]    |                    Informatique                     |          2           |
-|   [Polytech Montpellier]   |               Informatique et Gestion               |          3           |
-|      [Polytech Nancy]      |    Informatique, Automatique, Robotique, Réseaux    |          3           |
-|     [Polytech Nantes]      |       Électronique et Technologies Numériques       |          1           |
-|     [Polytech Nantes]      |                    Informatique                     |          4           |
-|   [Polytech Nice Sophia]   |                    Informatique                     |          12          |
-|   [Polytech Nice Sophia]   |       Mathématiques Appliquées, Modélisation        |          6           |
-|     [Polytech Orléans]     |        Génie Physique et Systèmes Embarqués         |          2           |
-|  [Polytech Paris-Saclay]   |       Informatique et Ingénierie Mathématique       |          2           |
-|    [Polytech Sorbonne]     |            Électronique et Informatique             |          2           |
-|    [Polytech Sorbonne]     |      Mathématiques Appliquées et Informatique       |          1           |
-|      [Polytech Tours]      |                    Informatique                     |          3           |
-|     [ENSIBS - Vannes]      |              Cybersécurité du logiciel              |          3           |
-|     [ENSIM - Le Mans]      |                                                     |          2           |
-|     [EPISEN - Créteil]     |                Système d'Information                |          2           |
-|     [EPISEN - Créteil]     |              Technologie pour la Santé              |          3           |
-|      [ESIR – Rennes]       |                    Informatique                     |          2           |
-|   [ESIROI - La Réunion]    |                                                     |          1           |
-| [ESIX - Normandie - Caen]  |         Mécatronique et Systèmes Embarqués          |          2           |
-|     [ISEL - Le Havre]      |                                                     |          4           |
-|      [ISTY - Vélizy]       |                                                     |          2           |
+|           École            |                             Spécialité                            | Nombre de places・99 |
+| :------------------------: | :---------------------------------------------------------------: | :-----------------: |
+| [Polytech Annecy-Chambéry] |                    Informatique Données Usages                    |          2          |
+|    [Polytech Clermont]     |              Ingénierie Mathématique et Data Science              |          3          |
+|      [Polytech Dijon]      |                      Informatique et réseaux                      |          3          |
+|      [Polytech Dijon]      |                             Robotique                             |          1          |
+|    [Polytech Grenoble]     |                            Informatique                           |          3          |
+|    [Polytech Grenoble]     |        Informatique et électronique des systèmes embarqués        |          4          |
+|    [Polytech Grenoble]     |            Technologies de l'information pour la santé            |          1          |
+|      [Polytech Lille]      |       Informatique, statistique et intelligence artificielle      |          3          |
+|      [Polytech Lille]      |                Internet des objets et cybersécurité               |          3          |
+|      [Polytech Lyon]       |                          Génie Biomédical                         |          2          |
+|      [Polytech Lyon]       |                            Informatique                           |          3          |
+|      [Polytech Lyon]       |              Mathématiques Appliquées et Modélisation             |          2          |
+|      [Polytech Lyon]       |                  Systèmes Industriels, Robotique                  |          1          |
+|    [Polytech Marseille]    |                            Informatique                           |          2          |
+|   [Polytech Montpellier]   |          Data science, Management, Software architecture          |          3          |
+|   [Polytech Montpellier]   |                  Microélectronique et Automatique                 |          2          |
+|      [Polytech Nancy]      |           Informatique, Automatique, Robotique, Réseaux           |          3          |
+|     [Polytech Nantes]      |              Électronique et Technologies Numériques              |          2          |
+|     [Polytech Nantes]      |                            Informatique                           |          5          |
+|   [Polytech Nice Sophia]   |                            Informatique                           |          10         |
+|   [Polytech Nice Sophia]   |      Mathématiques Appliquées, Modélisation (statut étudiant)     |          3          |
+|   [Polytech Nice Sophia]   | Mathématiques Appliquées, Modélisation (FISEA en 4e et 5e années) |          3          |
+|     [Polytech Orléans]     |                Génie Physique et Systèmes Embarqués               |          2          |
+|  [Polytech Paris-Saclay]   |              Informatique et Ingénierie Mathématique              |          2          |
+|    [Polytech Sorbonne]     |                    Électronique et Informatique                   |          2          |
+|    [Polytech Sorbonne]     |                             Robotique                             |          1          |
+|      [Polytech Tours]      |                            Informatique                           |          4          |
+|     [ENSIBS - Lorient]     |                     Cybersécurité du logiciel                     |          4          |
+|     [ENSIM - Le Mans]      |                                                                   |          2          |
+|     [EPISEN - Créteil]     |                       Système d'Information                       |          2          |
+|     [EPISEN - Créteil]     |                     Technologie pour la Santé                     |          3          |
+|      [ESIR – Rennes]       |                            Informatique                           |          4          |
+|   [ESIROI - La Réunion]    |                                                                   |          1          |
+| [ESIX - Normandie - Caen]  |                 Mécatronique et Systèmes Embarqués                |          2          |
+|     [ISEL - Le Havre]      |                                                                   |          4          |
+|      [ISTY - Vélizy]       |                                                                   |          2          |
 
 [Polytech Annecy-Chambéry]: https://www.polytech.univ-smb.fr/
 [Polytech Clermont]: https://polytech-clermont.fr/
@@ -630,7 +680,7 @@ Les candidats passent uniquement les [épreuves orales du concours commun Mines-
 [Polytech Paris-Saclay]: https://www.polytech.universite-paris-saclay.fr/
 [Polytech Sorbonne]: https://www.polytech.sorbonne-universite.fr/
 [Polytech Tours]: https://www.polytech.univ-tours.fr/
-[ENSIBS - Vannes]: https://www-ensibs.univ-ubs.fr/fr/index.html
+[ENSIBS - Lorient]: https://www-ensibs.univ-ubs.fr/fr/index.html
 [ENSIM - Le Mans]: https://ensim.univ-lemans.fr/fr/index.html
 [EPISEN - Créteil]: https://episen.u-pec.fr/
 [ESIR – Rennes]: https://esir.univ-rennes.fr/
@@ -642,74 +692,36 @@ Les candidats passent uniquement les [épreuves orales du concours commun Mines-
 #### Concours Ingéni'Up
 
 {{< admonition warning "Les places sont communes avec les MP, PC et PSI" false >}}
-Une seule liste de candidats classés regroupe les quatre séries MP, MPI, PC et PSI. Le concours Puissance Alpha et le concours Ingéni’Up affichent les
+Une seule liste de candidats classés regroupe les quatre séries MP, MPI, PC et PSI. Le concours Ingéni’Up affiche les
 nombres de places sur la rubrique « Inter-filière » du scei. L’avancement des listes s’effectuera de façon groupée pour les quatre séries MP, MPI, PC et PSI.
 {{< /admonition >}}
 
-|                         École                          | Nombre de places・163 |
-| :----------------------------------------------------: | :-------------------: |
-|         [ECAM *Louis de Broglie*][ECAM Rennes]         |          36           |
-| [ECAM-EPMI *Cergy-Pontoise*][ECAM-EPMI Cergy-Pontoise] |          38           |
-|        [Icam *site de Strasbourg-Europe*][Icam]        |          30           |
-|           [UniLaSalle *Amiens*][UniLaSalle]            |          29           |
-|          [UniLaSalle *Beauvais*][UniLaSalle]           |          22           |
-|           [UniLaSalle *Rennes*][UniLaSalle]            |           4           |
-|            [UniLaSalle *Rouen*][UniLaSalle]            |           4           |
+|                         École                          | Nombre de places・145 |
+| :----------------------------------------------------: | :------------------: |
+|         [ECAM *Louis de Broglie*][ECAM Rennes]         |          20          |
+| [ECAM-EPMI *Cergy-Pontoise*][ECAM-EPMI Cergy-Pontoise] |          40          |
+|        [Icam *site de Strasbourg-Europe*][Icam]        |          35          |
+|           [UniLaSalle *Amiens*][UniLaSalle]            |          20          |
+|          [UniLaSalle *Beauvais*][UniLaSalle]           |          20          |
+|           [UniLaSalle *Rennes*][UniLaSalle]            |          5           |
+|            [UniLaSalle *Rouen*][UniLaSalle]            |          5           |
 
 [ECAM Rennes]: https://www.ecam-rennes.fr/
 [ECAM-EPMI Cergy-Pontoise]: https://www.ecam-epmi.fr/
 [Icam]: https://www.icam.fr/
 [UniLaSalle]: https://www.unilasalle.fr/
 
-#### Puissance Alpha
-
-{{< admonition warning "Les places sont communes avec les MP, PC et PSI" false >}}
-Une seule liste de candidats classés regroupe les quatre séries MP, MPI, PC et PSI. Le concours Puissance Alpha et le concours Ingéni’Up affichent les
-nombres de places sur la rubrique « Inter-filière » du scei. L’avancement des listes s’effectuera de façon groupée pour les quatre séries MP, MPI, PC et PSI.
-{{< /admonition >}}
-
-|                                                École                                                 | Nombre de places・453 |
-| :--------------------------------------------------------------------------------------------------: | :-------------------: |
-|       [3il Ingénieurs Limoges][3il Ingénieurs] *- École d'Ingénieurs Informatique de Limoges*        |           5           |
-|                       [EFREI Paris][EFREI] *- École d'Ingénieurs du Numérique*                       |          64           |
-|    [ELISA Aerospace Bordeaux][ELISA Aerospace] *- École d'Ingénieurs des Sciences Aérospatiales*     |          10           |
-| [ELISA Aerospace Hauts de France][ELISA Aerospace] *- École d'Ingénieurs des Sciences Aérospatiales* |           7           |
-|                               [ESAIP][ESAIP] *Angers-Aix-en-Provence*                                |          22           |
-|                             [ESEO][ESEO] *Angers - Paris Vélizy - Dijon*                             |          15           |
-|      [ESIEA Paris/Laval][ESIEA] *- École d’Ingénieurs en Sciences et Technologies du Numérique*      |          16           |
-|                                        [ESIEE][ESIEE] *Paris*                                        |          110          |
-|       [ESIEE][ESIEE] *Paris – filière data – statut étudiant (1 an) + statut apprenti (2 ans)*       |          18           |
-|          [ESTIA Bidart][ESTIA] *- École Supérieure des Technologies Industrielles Avancées*          |          50           |
-|                                      [JUNIA HEI][JUNIA] *Lille*                                      |          72           |
-|                                [JUNIA ISEN][JUNIA] *Lille - Bordeaux*                                |          18           |
-|                    [ISEN Yncréa Méditerranée][ISEN Yncréa Méditerranée] *Toulon*                     |          12           |
-|                    [ISEN Yncréa Ouest][ISEN Yncréa Ouest] *Brest - Caen - Nantes*                    |          13           |
-|                                         [ISEP][ISEP] *Paris*                                         |          21           |
-
-[3il Ingénieurs]: https://www.3il-ingenieurs.fr/
-[EFREI]: https://www.efrei.fr/
-[ELISA Aerospace]: https://www.elisa-aerospace.fr/
-[ESAIP]: https://www.esaip.org/
-[ESEO]: https://www.eseo.fr/
-[ESIEA]: https://www.esiea.fr/
-[ESIEE]: https://www.esiee.fr/
-[ESTIA]: https://www.estia.fr/
-[JUNIA]: https://www.junia.com/
-[ISEN Yncréa Méditerranée]: https://www.isen-mediterranee.fr/
-[ISEN Yncréa Ouest]: https://www.isen-ouest.fr/
-[ISEP]: https://www.isep.fr/
-
 #### Concours AVENIR PRÉPAS
 
-|                                   École                                    |                                                 Formation                                                 | Nombre de places・34 |
-| :------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :------------------: |
-|             [EIGSI][EIGSI] *- École d'ingénieurs généralistes*             |                                             EIGSI La Rochelle                                             |          5           |
-|             [EIGSI][EIGSI] *- École d'ingénieurs généralistes*             |                                             EIGSI Casablanca                                              |          1           |
-|                  [ESIGELEC][ESIGELEC] *- Rouen/Poitiers*                   | École d'ingénieurs généralistes ∘ Rouen : statut étudiant et statut apprenti ∘ Poitiers : statut apprenti |          5           |
-|                         [ESILV][ESILV] *- Nantes*                          |                        École d’ingénieurs généralistes et technologies numériques                         |          2           |
-|            [ESILV][ESILV] *- Paris La Défense* statut étudiant             |                                      École d'ingénieurs généralistes                                      |          15          |
-|            [ESILV][ESILV] *- Paris La Défense* statut apprenti             |                                      École d'ingénieurs généralistes                                      |          2           |
-| [ESTACA][ESTACA] *- École d'ingénieurs Transports et nouvelles mobiliités* |                                  ESTACA Bordeaux - Filière Aéronautique                                   |          4           |
+|                                   École                                   |                                                 Formation                                                 | Nombre de places・27 |
+| :-----------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :-----------------: |
+|             [EIGSI][EIGSI] *- École d'ingénieurs généralistes*            |                                             EIGSI La Rochelle                                             |          3          |
+|             [EIGSI][EIGSI] *- École d'ingénieurs généralistes*            |                                              EIGSI Casablanca                                             |          1          |
+|                  [ESIGELEC][ESIGELEC] *- Rouen/Poitiers*                  | École d'ingénieurs généralistes ∘ Rouen : statut étudiant et statut apprenti ∘ Poitiers : statut apprenti |          5          |
+|                         [ESILV][ESILV] *- Nantes*                         |                         École d’ingénieurs généralistes et technologies numériques                        |          2          |
+|            [ESILV][ESILV] *- Paris La Défense* statut étudiant            |                                      École d'ingénieurs généralistes                                      |          10         |
+|            [ESILV][ESILV] *- Paris La Défense* statut apprenti            |                                      École d'ingénieurs généralistes                                      |          2          |
+| [ESTACA][ESTACA] *- École d'ingénieurs Transports et nouvelles mobilités* |                                   ESTACA Bordeaux - Filière Aéronautique                                  |          4          |
 
 [EIGSI]: https://www.eigsi.fr/
 [ESIGELEC]: https://www.esigelec.fr/
@@ -718,26 +730,48 @@ nombres de places sur la rubrique « Inter-filière » du scei. L’avancement d
 
 #### Écoles indépendantes
 
-|                                        École                                        |                                 Formation                                 |     Nombre de places・36+      |
+|                                        École                                        |                                 Formation                                 |      Nombre de places・86+      |
 | :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :----------------------------: |
-|                                [EIA][EIA] *Béthune*                                 |                             Génie électrique                              |               1                |
-|                                [EIA][EIA] *Béthune*                                 |                            Bâtiment - Énergie                             |               1                |
-|                                [EIA][EIA] *Béthune*                                 | Logistique Avancée : Production – Distribution Automatisées et Connectées |               1                |
-|                                [EIDD][EIDD] *Paris*                                 |                      École d'ingénieur Denis Diderot                      | 55 (commun avec MP, PC et PSI) |
-|                        [EIJV][EIJV] *Amiens – Saint Quentin*                        |                               Cybersécurité                               |               6                |
-|                        [EIJV][EIJV] *Amiens – Saint Quentin*                        |                           Logistique Innovante                            |               3                |
-|                        [EIJV][EIJV] *Amiens – Saint Quentin*                        |                Technologie de l'Information pour la santé                 |               2                |
-|                              [EIL][EIL] *Côte d'Opale*                              |             Cycle ingénieur spécialité Informatique (Calais)              |               5                |
-|                              [EIL][EIL] *Côte d'Opale*                              |         Cycle ingénieur spécialité Génie Industriel (Saint-Omer)          |               5                |
+|                     [3iL Ingénieurs] *Limoges, Nantes ou Rodez*                     |                     École d'Ingénieurs en informatique                    |               10               |
+|                                    Aflokkat MIRA                                    |                                                                           | 20 (commun avec MP, PC et PSI) |
+|                              [EFREI] *Paris - Bordeaux*                             |                École d'ingénieurs généraliste du numérique                | 50 (commun avec MP, PC et PSI) |
+|                                 [EIA][EIA] *Béthune*                                |                              Génie électrique                             |               1                |
+|                                 [EIDD][EIDD] *Paris*                                |                      École d'ingénieur Denis Diderot                      | 55 (commun avec MP, PC et PSI) |
+|                        [EIJV][EIJV] *Amiens – Saint Quentin*                        |                               Cybersécurité                               |               4                |
+|                        [EIJV][EIJV] *Amiens – Saint Quentin*                        |                         Supply Chain & Logistique                         |               1                |
+|                        [EIJV][EIJV] *Amiens – Saint Quentin*                        |                           Numérique, Santé et IA                          |               2                |
+|                              [EIL][EIL] *Côte d'Opale*                              |              Cycle ingénieur spécialité Informatique (Calais)             |               5                |
+|                              [EIL][EIL] *Côte d'Opale*                              |          Cycle ingénieur spécialité Génie Industriel (Saint-Omer)         |               5                |
 |                              [EIL][EIL] *Côte d'Opale*                              | Cycle ingénieur spécialité Génie Énergétique et Environnement (Dunkerque) |               5                |
 |                              [EIL][EIL] *Côte d'Opale*                              |       Cycle ingénieur spécialité Agroalimentaire (Boulogne-Sur-Mer)       |               2                |
+|                    [ELISA Aerospace] *Bordeaux - Hauts-de-France*                   |                  Cycle ingénieur en systèmes aérospatiaux                 | 30 (commun avec MP, PC et PSI) |
+|                          [ESAIP] *Angers - Aix-en-Provence*                         |                                                                           | 24 (commun avec MP, PC et PSI) |
+|                        [ESEO] *Angers - Paris Vélizy - Dijon*                       |                                                                           | 20 (commun avec MP, PC et PSI) |
+|                               [ESIEA] *Paris - Laval*                               |                  École d'ingénieurs d'un numérique utile                  |               10               |
+|                                   [ESTIA] *Bidart*                                  |      Ingénieur généraliste international avec double diplôme européen     |               5                |
 | [IMT Nord Europe][IMT Nord Europe - Polyvia Formation] *en partenariat avec l’ISPA* |       Ingénieur de spécialité en plasturgie et matériaux composites       |               5                |
+|                       [ISEN Méditerranée] *Toulon - Marseille*                      |            Institut Supérieur de l'Électronique et du Numérique           |               6                |
+|                         [ISEN Ouest] *Brest - Nantes - Caen*                        |                                                                           | 25 (commun avec MP, PC et PSI) |
+|                                    [ISEP] *Paris*                                   |                                                                           | 30 (commun avec MP, PC et PSI) |
+|                              [JUNIA HEI][JUNIA] *Lille*                             |                         Hautes Études d'Ingénieur                         |               15               |
+|                        [JUNIA ISEN][JUNIA] *Lille - Bordeaux*                       |            Institut Supérieur de l'Électronique et du Numérique           |               10               |
 
+[3iL Ingénieurs]: https://www.3il-ingenieurs.fr/
+[EFREI]: https://www.efrei.fr/
 [EIA]: https://www.univ-artois.fr/eia
 [EIDD]: https://u-paris.fr/eidd/
 [EIJV]: https://eijv.u-picardie.fr/
 [EIL]: https://www.eilco-ulco.fr/
+[ELISA Aerospace]: https://www.elisa-aerospace.fr/
+[ESAIP]: https://www.esaip.org/
+[ESEO]: https://www.eseo.fr/
+[ESIEA]: https://www.esiea.fr/
+[ESTIA]: https://www.estia.fr/
 [IMT Nord Europe - Polyvia Formation]: https://imt-nord-europe.fr/annuaire-formations/plasturgie-et-materiaux-composites/
+[ISEN Méditerranée]: https://www.isen-mediterranee.fr/
+[ISEN Ouest]: https://www.isen-ouest.fr/
+[ISEP]: https://www.isep.fr/
+[JUNIA]: https://www.junia.com/
 
 ### Épreuves écrites
 
@@ -750,27 +784,61 @@ Les épreuves d'**Informatique**, de **Français-Philosophie** et de **Langue Vi
 
 {{< admonition info "Coefficients" false >}}
 
-|            Épreuve             | Polytech | AVENIR PREPAS | Ingeni'up | PUISSANCE ALPHA-CPGE | EIA Béthune  | EIDD - Paris | EIJV Amiens - Saint Quentin | EIL Côte d'Opale | IMT Nord Europe* |
-| :----------------------------: | :------: | :-----------: | :-------: | :------------------: | :----------: | :----------: | :-------------------------: | :--------------: | :--------------: |
-|         Mathématiques          |    8     |       6       |     5     |          8           |      9       |      8       |              8              |        5         |        9         |
-|        Physique-Chimie         |    6     |       4       |     4     |          5           |      9       |      6       |              6              |        5         |        9         |
-|          Informatique          |    8     |       4       |     5     |          8           |      9       |      8       |              8              |        5         |        4         |
-|      Français-Philosophie      |    5     |       3       |     3     |          3           |      6       |      5       |              5              |        4         |        5         |
-|        Langue vivante A        |    5     |       3       |     2     |          3           |      6       |      3       |              5              |        4         |        5         |
-| Langue vivante B (facultative) |    2     |       1       |     1     |          1           |      1       |      2       |              2              |        4         |        2         |
+|      Concours ou école      | Mathématiques | Physique-Chimie | Informatique | Français-Philosophie | Langue vivante A | Langue vivante B (facultative) |
+| :-------------------------: | :-----------: | :-------------: | :----------: | :------------------: | :--------------: | :----------------------------: |
+|      Concours Polytech      |       8       |        6        |      8       |          5           |        5         |               2                |
+|    Concours AVENIR PREPAS   |       6       |        4        |      4       |          3           |        3         |               1                |
+|      Concours Ingéni'Up     |       5       |        4        |      5       |          3           |        2         |               1                |
+|        3iL Ingénieurs       |       8       |        5        |      8       |          3           |        3         |               1                |
+|        Aflokkat MIRA        |       4       |        4        |      5       |          3           |        3         |               2                |
+|            EFREI            |       8       |        5        |      8       |          3           |        3         |               1                |
+|         EIA Béthune         |       9       |        8        |      9       |          7           |        6         |               1                |
+|          EIDD Paris         |       8       |        6        |      8       |          5           |        3         |               2                |
+| EIJV Amiens - Saint Quentin |       8       |        6        |      8       |          5           |        5         |               2                |
+|       EIL Côte d'Opale      |       5       |        5        |      5       |          4           |        4         |               4                |
+|       ELISA Aerospace       |       8       |        5        |      8       |          3           |        3         |               1                |
+|            ESAIP            |       5       |        4        |      5       |          3           |        3         |               2                |
+|             ESEO            |       8       |        5        |      8       |          3           |        3         |               1                |
+|            ESIEA            |       7       |        5        |      6       |          2           |        1         |               1                |
+|            ESTIA            |       4       |        4        |      4       |          4           |        4         |               2                |
+|      IMT Nord Europe\*      |       9       |        9        |      4       |          5           |        5         |               2                |
+|      ISEN Méditerranée      |       8       |        5        |      8       |          3           |        3         |               1                |
+|          ISEN Ouest         |       8       |        5        |      8       |          3           |        3         |               1                |
+|             ISEP            |       5       |        4        |      6       |          2           |        2         |               1                |
+|          JUNIA HEI          |       8       |        5        |      3       |          3           |        3         |               1                |
+|          JUNIA ISEN         |       8       |        5        |      3       |          3           |        3         |               1                |
 
 \**En partenariat avec l’ISPA*
 {{< /admonition >}}
 
 ### Épreuves orales
 
-Pour les écoles du concours POLYTECH, seule l'épreuve commune de **[TIPE][TIPE]** est à effectuer.
+Pour les écoles du concours POLYTECH, seule l'épreuve commune de **[TIPE][TIPE]** (coefficient 8) est à effectuer.
 
-Pour les autres écoles, il y a un **entretien** affecté des coefficients suivants :
+Pour les autres écoles, il y a généralement un **entretien** affecté des coefficients suivants :
 
-| AVENIR PREPAS | Ingéni'Up | PUISSANCE ALPHA CPGE | EIA Béthune  | EIDD - Paris | EIJV Amiens - Saint Quentin | EIL Côte d'Opale | IMT Nord Europe\* |
-| :-----------: | :-------: | :------------------: | :----------: | :----------: | :-------------------------: | :--------------: | :---------------: |
-|       9       |     ∅     |          14          |      20      |      ∅       |              10             |        10        |        15         |
+|      Concours ou école      |       Coefficient        |
+| :-------------------------: | :----------------------: |
+|        AVENIR PREPAS        |            9             |
+|          Ingéni'Up          |            7             |
+|        3iL Ingénieurs       |            12            |
+|        Aflokkat MIRA        |            10            |
+|            EFREI            |            28            |
+|         EIA Béthune         |            20            |
+|          EIDD Paris         |            ∅            |
+| EIJV Amiens - Saint Quentin |            10            |
+|       EIL Côte d'Opale      |            10            |
+|       ELISA Aerospace       |            14            |
+|            ESAIP            |            10            |
+|             ESEO            |            14            |
+|            ESIEA            |            10            |
+|            ESTIA            | 10 + 10 (langue vivante) |
+|      IMT Nord Europe\*      |            15            |
+|      ISEN Méditerranée      |            20            |
+|          ISEN Ouest         |            20            |
+|             ISEP            |            20            |
+|          JUNIA HEI          |            20            |
+|          JUNIA ISEN         |            20            |
 
 \**En partenariat avec l’ISPA*
 
