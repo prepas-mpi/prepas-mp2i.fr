@@ -16,6 +16,11 @@ Voici une liste non exhaustive de projets d'étudiants en MP2I ou MPI, n'hésite
 Si vous êtes ou étiez en MP2I ou MPI et que vous souhaitez soumettre un de vos projets, envoyez-nous un mail à [contact@prepas-mp2i.fr](mailto:contact@prepas-mp2i.fr).
 {{< /admonition >}}
 
+## 2026-2027
+
+### L. Dehmas (2025-2026) et C. Perry (2026-2027)
+- [Cours de mathématiques MPI/MPI*](https://mp2i-mpi-champo.github.io/files/integrale_mpi.pdf) : Un cours de mathématiques complet avec TD et parfois des corrections.
+
 ## 2023-2024
 
 ### Adrien Jayat et Erwan Coubret
